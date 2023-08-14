@@ -27,13 +27,16 @@ sed -i 's/your_ecr_url/${ecr_url}/g' tpl/*.yaml
 ```
 ./skywalking <command>
 
-最常用的skywalking命令有:
-  status 查看skywalking ns状态  
-  stop   停止所有skywalking pod
-  start  启动所有skywalking pod
-  delete
+The most commonly used skywalking commands are:
+
+  status view skywalking pod status
+  stop   stop skywalking pod
+  start  start skywalking pod
+  delete 
   create
-  clear       
+  clear
+
+```      
 
 ```
 
